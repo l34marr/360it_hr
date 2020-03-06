@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="360it_hr.list">
+      <field name="name">360it_hr list</field>
+      <field name="model">360it_hr.360it_hr</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="360it_hr.action_window">
+      <field name="name">360it_hr window</field>
+      <field name="res_model">360it_hr.360it_hr</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="360it_hr.action_server">
+      <field name="name">360it_hr server</field>
+      <field name="model_id" ref="model_360it_hr_360it_hr"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="360it_hr" id="360it_hr.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="360it_hr.menu_1" parent="360it_hr.menu_root"/>
+    <menuitem name="Menu 2" id="360it_hr.menu_2" parent="360it_hr.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="360it_hr.menu_1_list" parent="360it_hr.menu_1"
+              action="360it_hr.action_window"/>
+    <menuitem name="Server to list" id="360it_hr" parent="360it_hr.menu_2"
+              action="360it_hr.action_server"/>
+-->
+  </data>
+</odoo>

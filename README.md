@@ -1,4 +1,4 @@
-Manage Recruitment and Job applications
+Manage Recruitment and Job Applications
 ---------------------------------------
 
 Publish, promote and organize your job offers with the Odoo
@@ -8,7 +8,7 @@ Organize your job board, promote your job announces and keep track of
 application submissions easily. Follow every applicant and build up a database
 of skills and profiles with indexed documents.
 
-Manage Your Candidates
-----------------------
+Manage Applicant Candidates
+---------------------------
 
 Organize the candidate's profile, resume and matching records.
